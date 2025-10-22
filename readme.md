@@ -3,6 +3,14 @@
 Este proyecto contiene **cinco programas** básicos hechos en Python, enfocados en el uso de **funciones**, **manejo de cadenas** y **entrada/salida de datos**.
 Cada programa está diseñado para practicar conceptos clave del curso.
 
+### ¿Cómo ejecutar los programas?
+Para ejecutar cualquiera de los programas, sigue estos pasos:
+
+1.Asegúrate de tener Python 3 instalado en tu sistema. Puedes descargarlo desde python.org.
+2.Clona o descarga este repositorio a tu máquina local.
+3.Abre tu terminal o línea de comandos (CMD en Windows, Terminal en macOS/Linux).
+4.Navega hasta el directorio donde guardaste los archivos del programa. Por ejemplo, si los tienes en una carpeta llamada mis_programas_python en tu escritorio: cd Desktop/mis_programas_python.
+5.Una vez en el directorio correcto, ejecuta el programa deseado usando el comando python seguido del nombre del archivo .py. Por ejemplo: python palindromos.py.
 ### 1️. `contar_caracteres.py`
 
 **✔️ Función:** Cuenta vocales, consonantes, espacios y caracteres especiales en una cadena.
@@ -78,10 +86,10 @@ Contraseña generada: a8K!d2#rQ9@h
 
 **✔️ Función:** Cuenta la cantidad de palabras, frases y párrafos en un texto.
 
-#### 📥 Entrada esperada
+####  Entrada esperada
 (Párrafo ingresado por el usuario)
 
-#### 📤 Salida esperada
+####  Salida esperada
 
 Palabras: 45  
 Frases: 3  
@@ -93,9 +101,10 @@ Párrafos: 2
 * Errores en conteo si el texto no usa puntuación estándar (.,!?)
 
 
-### 🛠 Requisitos
+###  Requisitos
 
 * Python 3.6 o superior
 * No se requieren módulos externos (excepto `string`, que es estándar)
+
 
 
