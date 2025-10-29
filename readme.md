@@ -11,6 +11,8 @@ Para ejecutar cualquiera de los programas, sigue estos pasos:
 3.Abre tu terminal o línea de comandos (CMD en Windows, Terminal en macOS/Linux).
 4.Navega hasta el directorio donde guardaste los archivos del programa. Por ejemplo, si los tienes en una carpeta llamada mis_programas_python en tu escritorio: cd Desktop/mis_programas_python.
 5.Una vez en el directorio correcto, ejecuta el programa deseado usando el comando python seguido del nombre del archivo .py. Por ejemplo: python palindromos.py.
+
+
 ### 1️. `contar_caracteres.py`
 
 **✔️ Función:** Cuenta vocales, consonantes, espacios y caracteres especiales en una cadena.
@@ -30,6 +32,7 @@ Caracteres especiales: 3
 
 * No se valida si la entrada está vacía.
 * Algunos caracteres Unicode especiales podrían no ser tratados correctamente si no están en minúscula o fuera del rango `isalpha()`.
+  
 
 ### 2️. `palindromo.py`
 
@@ -49,7 +52,7 @@ La frase ingresada es un palíndromo
 * Si el usuario no ingresa texto, se mostrará un mensaje de error controlado con `try-except`.
 
 
-# 3. `calculadora_modular.py`
+### 3. `calculadora_modular.py`
 
 **✔️ Función:** Programa en **Python** que realiza **operaciones aritméticas básicas**:  
 - Suma  
@@ -59,13 +62,7 @@ La frase ingresada es un palíndromo
 
 Cada operación se implementa mediante una función independiente.
 
-## Funcionamiento:  
-
-El programa:
-1. Muestra un menú con las operaciones disponibles.  
-2. Solicita dos números al usuario.  
-3. Ejecuta la operación elegida.  
-4. Muestra el resultado o un mensaje de error si ocurre algún problema.
+* El programa muestra un menú con las operaciones disponibles.  
 
 ####  Entrada esperada
 
@@ -79,10 +76,10 @@ Resultado: 15.0
 
 #### ⚠️ Posibles errores
 
-*Si el usuario intenta dividir por cero, se mostrará "Error: división por cero".
-*Si el usuario ingresa texto en lugar de números, se mostrará "Error: debes ingresar valores numéricos.".
-*Si elige una opción que no está en el menú, se mostrará "Opción inválida".
-
+* Si el usuario intenta dividir por cero, se mostrará "Error: división por cero".
+* Si el usuario ingresa texto en lugar de números, se mostrará "Error: debes ingresar valores numéricos.".
+* Si elige una opción que no está en el menú, se mostrará "Opción inválida".
+  
 
 ### 4️. `generador_contrasenas.py`
 
@@ -100,6 +97,7 @@ Contraseña generada: a8K!d2#rQ9@h
 
 * Entrada no numérica o negativa
 * Longitudes menores a 4 podrían generar contraseñas débiles
+
 
 ### 5️. `analizador_texto.py`
 
@@ -124,6 +122,7 @@ Párrafos: 2
 
 * Python 3.6 o superior
 * No se requieren módulos externos (excepto `string`, que es estándar)
+
 
 
 
