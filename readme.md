@@ -101,7 +101,12 @@ Contraseña generada: a8K!d2#rQ9@h
 
 ### 5️. `analizador_texto.py`
 
-**✔️ Función:** Cuenta la cantidad de palabras, frases y párrafos en un texto.
+**✔️ Función:** analiza un texto ingresado por el usuario y muestra:  
+- Número de **palabras**  
+- Número de **frases**  
+- Número de **párrafos**
+
+Utiliza funciones separadas para contar cada elemento, aplicando programación modular.
 
 ####  Entrada esperada
 (Párrafo ingresado por el usuario)
@@ -122,6 +127,7 @@ Párrafos: 2
 
 * Python 3.6 o superior
 * No se requieren módulos externos (excepto `string`, que es estándar)
+
 
 
 
