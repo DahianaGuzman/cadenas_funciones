@@ -48,12 +48,30 @@ La frase ingresada es un palíndromo
 * Si la entrada contiene solo espacios o caracteres especiales, puede generar resultados incorrectos.
 * Si el usuario no ingresa texto, se mostrará un mensaje de error controlado con `try-except`.
 
-### 3️. `calculadora_modular.py`
 
-**✔️ Función:** Realiza operaciones básicas (+, -, *, /) usando funciones para cada operación.
+# 3. `calculadora_modular.py`
+
+**✔️ Función:** Programa en **Python** que realiza **operaciones aritméticas básicas**:  
+- Suma  
+- Resta  
+- Multiplicación  
+- División  
+
+Cada operación se implementa mediante una función independiente.
+
+## Funcionamiento:  
+
+El programa:
+1. Muestra un menú con las operaciones disponibles.  
+2. Solicita dos números al usuario.  
+3. Ejecuta la operación elegida.  
+4. Muestra el resultado o un mensaje de error si ocurre algún problema.
 
 ####  Entrada esperada
-* El usuario debe ingresar dos números y una operación (ej. `+`, `-`, `*`, `/`)
+
+Elige una opción: 1
+Número 1: 10
+Número 2: 5
 
 ####  Salida esperada
 
@@ -61,9 +79,10 @@ Resultado: 15.0
 
 #### ⚠️ Posibles errores
 
-* División por cero
-* Entrada de texto en lugar de números
-* Operación no válida
+*Si el usuario intenta dividir por cero, se mostrará "Error: división por cero".
+*Si el usuario ingresa texto en lugar de números, se mostrará "Error: debes ingresar valores numéricos.".
+*Si elige una opción que no está en el menú, se mostrará "Opción inválida".
+
 
 ### 4️. `generador_contrasenas.py`
 
@@ -105,6 +124,7 @@ Párrafos: 2
 
 * Python 3.6 o superior
 * No se requieren módulos externos (excepto `string`, que es estándar)
+
 
 
 
